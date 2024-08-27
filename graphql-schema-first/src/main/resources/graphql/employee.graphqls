@@ -1,0 +1,14 @@
+type EmployeeData {
+    employeeId: String
+    first_name: String
+    last_name: String
+    address: EmployeeAddress
+}
+
+type EmployeeAddress {
+    address_line_1: String
+    address_line_2: String
+    state: String
+    country: String
+    postal_code: String
+}

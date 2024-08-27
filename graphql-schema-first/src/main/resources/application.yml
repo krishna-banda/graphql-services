@@ -1,0 +1,18 @@
+spring:
+  application.name: graphql-schema-first
+  main.allow-circular-reference: true
+  graphql:
+    path: /graphql-schema-first
+    graphiql.enabled: true
+
+---
+spring.config.activate.on-profile: local
+
+---
+spring.config.activate.on-profile: dev
+
+---
+spring.config.activate.on-profile: uat
+
+---
+spring.config.activate.on-profile: prod
