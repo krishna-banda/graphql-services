@@ -1,3 +1,5 @@
+#GraphQL Endpoint: http://localhost:8080/graphql-schema-first
+#GraphiQL Endpoint: http://localhost:8080/graphiql?path=/graphql-schema-first
 spring:
   application.name: graphql-schema-first
   main.allow-circular-reference: true

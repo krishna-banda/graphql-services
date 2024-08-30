@@ -1,3 +1,4 @@
+#Define the Query
 type Query {
     getEmployee(employeeId: String!): EmployeeData
 }
