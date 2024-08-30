@@ -14,7 +14,7 @@ public class EmployeeDataService implements DataFetchersDelegateEmployeeData {
     public EmployeeAddress address(DataFetchingEnvironment dataFetchingEnvironment, EmployeeData origin) {
         //Find Address based on Employee Details
         log.info("This is Entry Point for Employee Address");
-        //Observe the same Execution Id
+        //Observe the same Execution id
         log.info("Execution Id for the given request to understand the relation " + dataFetchingEnvironment.getExecutionId().toString());
         return EmployeeAddress.builder()
                 .withAddress_line_1("Sample Address Line1")

@@ -4,7 +4,6 @@ import com.krishna.banda.EmployeeData;
 import com.krishna.banda.util.DataFetchersDelegateQuery;
 import graphql.schema.DataFetchingEnvironment;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -12,7 +11,7 @@ import org.springframework.stereotype.Service;
 public class QueryService implements DataFetchersDelegateQuery {
 
     @Override
-    /**
+    /*
      * @DataFetchingEnvironment contains all Metadata related to each Request
      *
      */
