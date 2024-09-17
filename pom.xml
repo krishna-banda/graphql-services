@@ -26,6 +26,7 @@
 
     <modules>
         <module>graphql-schema-first</module>
+        <module>graphql-schema-first-union</module>
     </modules>
 
 </project>
