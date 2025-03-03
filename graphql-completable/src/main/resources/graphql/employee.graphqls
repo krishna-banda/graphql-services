@@ -1,0 +1,5 @@
+#Define the types
+type EmployeeData {
+    employeeDetails: EmployeeDetails
+    employeeAddress: EmployeeAddress
+}

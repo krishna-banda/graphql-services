@@ -1,0 +1,13 @@
+#Define the types
+type EmployeeAddress {
+    employeeId: String
+    addresses: [Address]
+}
+
+type Address {
+    address_line_1: String
+    address_line_2: String
+    state: String
+    country: String
+    postal_code: String
+}

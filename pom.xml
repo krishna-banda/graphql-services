@@ -22,11 +22,14 @@
         <java.version>17</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
+        <com.graphql-java-generator.version>2.8</com.graphql-java-generator.version>
+
     </properties>
 
     <modules>
         <module>graphql-schema-first</module>
         <module>graphql-schema-first-union</module>
+        <module>graphql-completable</module>
     </modules>
 
 </project>

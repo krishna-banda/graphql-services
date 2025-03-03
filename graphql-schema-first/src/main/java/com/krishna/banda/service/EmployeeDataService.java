@@ -1,4 +1,4 @@
-package com.krishna.banda.delegate.service;
+package com.krishna.banda.service;
 
 import com.krishna.banda.EmployeeAddress;
 import com.krishna.banda.EmployeeData;
